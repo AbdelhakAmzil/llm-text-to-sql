@@ -1,0 +1,11 @@
+# Exclure les gros fichiers modèle (trop lourds pour GitHub)
+model/*.safetensors
+model/*.bin
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
